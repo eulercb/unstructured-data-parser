@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-docx = "==0.8.11"
+pyparsing = "==2.4.7"
+
+[dev-packages]
+autopep8 = "*"
+pylint = "*"
+pytest = "*"
+faker = "*"
+
+[requires]
+python_version = "3.8"
